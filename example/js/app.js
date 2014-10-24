@@ -23,5 +23,5 @@ config(['$routeProvider', function($routeProvider) {
 .run(function($rootScope, user) {
 	// Initiate the user service with your UserApp App Id
 	// https://help.userapp.io/customer/portal/articles/1322336-how-do-i-find-my-app-id-
-	user.init({ appId: 'YOUR-USERAPP-APP-ID' });
+	user.init({ appId: '544947115c38e' });
 });
